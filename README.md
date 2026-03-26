@@ -1,6 +1,6 @@
 # Kekkle's Korner
 
-A simple blog to chronicle my learning...
+A simple blog to post my stuff...
 
 **Live site:** [kekkle.github.io/kekkles-korner](https://kekkle.github.io/kekkles-korner)
 
