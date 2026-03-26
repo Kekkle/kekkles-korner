@@ -134,8 +134,18 @@ hr {
   font-size: 1.5rem;
   color: #fff;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 
   &:hover { color: var(--purple-pale); }
+}
+
+.site-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.6);
 }
 
 .site-nav {
