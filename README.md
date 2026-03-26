@@ -1,6 +1,6 @@
 # Kekkle's Korner
 
-A simple blog for bi-monthly updates on building a nutrition education app for kids.
+A simple blog to chronicle my learning...
 
 **Live site:** [kekkle.github.io/kekkles-korner](https://kekkle.github.io/kekkles-korner)
 
