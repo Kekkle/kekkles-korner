@@ -1,6 +1,6 @@
-# Kekkle's Korner
+# Kekkle me pink
 
-A simple blog to post my stuff...
+A simple blog for bi-monthly updates on building a nutrition education app for kids.
 
 **Live site:** [kekkle.github.io/kekkles-korner](https://kekkle.github.io/kekkles-korner)
 

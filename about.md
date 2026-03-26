@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="about-content" markdown="1">
 
-# About Kekkle's Korner
+# About Kekkle me pink
 
 Hey there! I'm Joykie, the person behind **Kekkle**.
 
