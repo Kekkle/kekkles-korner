@@ -1,0 +1,279 @@
+/* ── Reset & Base ── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --purple:      #7B2D8E;
+  --purple-light:#A85CBF;
+  --purple-pale: #F3E8F9;
+  --warm-bg:     #FFF9F4;
+  --warm-card:   #FFFFFF;
+  --text:        #3A3A3A;
+  --text-light:  #6E6E6E;
+  --border:      #E8DDD4;
+  --radius:      10px;
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: var(--text);
+  background: var(--warm-bg);
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+a {
+  color: var(--purple);
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--purple-light);
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
+/* ── Typography ── */
+
+h1, h2, h3, h4 {
+  font-family: 'Lilita One', cursive;
+  font-weight: 400;
+  color: var(--purple);
+  line-height: 1.25;
+}
+
+h1 { font-size: 2rem;   margin-bottom: 0.5em; }
+h2 { font-size: 1.5rem; margin-top: 1.6em; margin-bottom: 0.4em; }
+h3 { font-size: 1.2rem; margin-top: 1.4em; margin-bottom: 0.3em; }
+
+p  { margin-bottom: 1em; }
+
+ul, ol {
+  margin-bottom: 1em;
+  padding-left: 1.4em;
+}
+
+blockquote {
+  border-left: 4px solid var(--purple-light);
+  padding: 0.6em 1em;
+  margin: 1.2em 0;
+  background: var(--purple-pale);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-style: italic;
+  color: var(--text-light);
+}
+
+code {
+  font-size: 0.88em;
+  background: var(--purple-pale);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+pre {
+  background: #2D2640;
+  color: #F0E6F6;
+  padding: 1em 1.2em;
+  border-radius: var(--radius);
+  overflow-x: auto;
+  margin-bottom: 1.2em;
+
+  code {
+    background: none;
+    padding: 0;
+    color: inherit;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 2px solid var(--border);
+  margin: 2em 0;
+}
+
+/* ── Header ── */
+
+.site-header {
+  background: var(--purple);
+  padding: 1rem 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.site-title {
+  font-family: 'Lilita One', cursive;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.02em;
+
+  &:hover { color: var(--purple-pale); }
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.2rem;
+
+  a {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+
+    &:hover { color: #fff; }
+  }
+}
+
+/* ── Main ── */
+
+.site-main {
+  flex: 1;
+  padding: 2.5rem 0 3rem;
+}
+
+/* ── Home / Post List ── */
+
+.page-heading {
+  margin-bottom: 0.3em;
+}
+
+.page-subtitle {
+  color: var(--text-light);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.post-card {
+  background: var(--warm-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.6rem;
+  transition: box-shadow 0.2s, transform 0.15s;
+
+  &:hover {
+    box-shadow: 0 4px 18px rgba(123, 45, 142, 0.10);
+    transform: translateY(-2px);
+  }
+}
+
+.post-card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.2em;
+
+  a { color: var(--purple); }
+}
+
+.post-card-date {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-bottom: 0.6em;
+}
+
+.post-card-excerpt {
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ── Single Post ── */
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-title {
+  font-size: 2rem;
+}
+
+.post-date {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-top: 0.3em;
+}
+
+.post-content {
+  margin-bottom: 2.5rem;
+}
+
+.post-footer {
+  border-top: 2px solid var(--border);
+  padding-top: 1.2rem;
+}
+
+.back-link {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* ── About ── */
+
+.about-content {
+  h1 { margin-bottom: 0.3em; }
+}
+
+/* ── Footer ── */
+
+.site-footer {
+  background: var(--purple);
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 1.2rem 0;
+  font-size: 0.85rem;
+
+  p { margin: 0; }
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 600px) {
+  html { font-size: 16px; }
+
+  .site-header .container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .post-card {
+    padding: 1rem 1.1rem;
+  }
+
+  .post-title {
+    font-size: 1.6rem;
+  }
+}

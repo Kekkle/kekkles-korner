@@ -1,0 +1,20 @@
+---
+layout: default
+title: Home
+---
+<h1 class="page-heading">Kekkle's Korner</h1>
+<p class="page-subtitle">Bi-monthly updates on building a nutrition education app for kids.</p>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li class="post-card">
+    <h2 class="post-card-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+    <time class="post-card-date" datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date: "%B %-d, %Y" }}
+    </time>
+    <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+  </li>
+  {% endfor %}
+</ul>

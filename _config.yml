@@ -1,0 +1,23 @@
+title: Kekkle's Korner
+description: Bi-monthly updates on building a nutrition education app for kids.
+url: "https://kekkle.github.io"
+baseurl: "/kekkles-korner"
+
+permalink: /:year/:month/:day/:title/
+timezone: Africa/Nairobi
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
