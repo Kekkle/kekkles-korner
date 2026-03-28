@@ -66,6 +66,29 @@ A few things I went back and forth on:
 
 **Drafting versus refining.** The biggest takeaway so far is that building the thing is maybe 40% of the work. The other 60% is refining--adjusting text, rethinking layouts, swapping out visuals, and iterating until it actually matches what's in my head. Cursor has been a useful partner in that process, but I still have to know what I want and be willing to push back when the output isn't quite right. This process is also showing me where my gaps are--where I lack clarity both in what I want my project to be or in how I relay my ideas to the Agent. 
 
+## How it's looking
+
+**The learning path.** After many tweaks and adjustments, here's the final look of the learning path. 
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/learning-path-new1.png" alt="learning path new1"> 
+  <img src="/kekkles-korner/assets/images/posts/learning-path-new2.png" alt="learning path new2">
+  <figcaption>Not yet perfect, text overlaps a bit.</figcaption>
+</figure>
+
+**Main slides.** The main slides look a bit like this. 
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/celly-slide1.png" alt="celly slide1"> 
+  <img src="/kekkles-korner/assets/images/posts/body-slide.png" alt="body slide">
+  <figcaption>All slides meant to fit a phone screen.</figcaption>
+</figure>
+
+**Game features.** Here are two game features--still simple but a little more visually appealing.
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/game-sort.png" alt="game sort"> 
+  <img src="/kekkles-korner/assets/images/posts/game-snake.png" alt="game snake">
+  <figcaption>It was fun to program the snake to grow one block when it "eats" the right icon, and lose a block when it eats the wrong item.</figcaption>
+</figure>
+
 ## What's next
 
 Module 1 is in decent shape. Next up is Module 2: "The Team"--where we'll go a bit more indepth into the macronutrients, specifically the molecules (glucose, amino acids, and fatty acids) that comprise each one, and how to determine which food falls under which macronutrients. So yeah, new lesson content, new game configs, and probably more art iterations.
