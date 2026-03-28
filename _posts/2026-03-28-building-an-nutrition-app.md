@@ -1,5 +1,5 @@
 ---
-title: "Building an interactive nutrition app -- the story so far"
+title: "Building an interactive nutrition app...how it's going"
 date: 2026-03-28
 ---
 
@@ -38,11 +38,15 @@ A few things I went back and forth on:
 
 **The art style.** Initially the style was emoji-based characters for everything. It looked generic, basic, and well, ugly. I showed my kids and they let me know it looked boring. I had initially created a Canva presentation of this project using the graphics, colors, text and style that I envisioned. So I fed those pages as pngs to Cursor asking it to gain context from my designs, but something got lost in translation. Cursor then spat out the exact same application but with my slides as the images instead. It looked worse. I changed tactics. I had Cursor remove single graphics from my Canva presentation and save them out. Then I went through the app slide by slide and instructed Cursor when to replace current images with specifics images from Canva. That worked. It started looking more like I wanted. Even my daughter gave her approval. Whew. 
 
-**The learning path.** The first version was a plain vertical list of nodes. It worked, but it was boring. I redesigned it as a winding road with location-marker checkpoints--more visually engaging, gives that "journey" feeling, and slightly less "duolingo" looking.
+[alt text](/kekkles-korner/assets/images/posts/Old-slide-1.png.)
+
+**The learning path.** The first version was a plain vertical list of nodes. It worked, but it was boring. I redesigned it as a winding road with location-marker checkpoints--more visually engaging, gives that "journey" feeling, and slightly less "duolingo" looking. Here's the original output:
+
+[alt text](/kekkles-korner/assets/images/posts/Old-learning-path.png.)
 
 **Game prompts and instructions.** I kept tweaking the wording on each slide screen and made numerous small changes to all the games. Some games I changed completely--e.g., removing a multiple choice question game to a snake game. 
 
-**Correctly using Cursor.** I made several errors in this. Instead of creating a new folder for my blog creation, I opened a new chat within the app folder for this purpose. This lead to a fantastic mix up of prompting the blog chat to fix game components in the app. Meh. Additionally, I learned the need to pause after a period of vibe coding, to reflect on all the changes I had requested and identify what was core to the app development. Those core features like, never include text below an image icon, should then be added to the agents.md file or the app-plan.md file so that it carries over across all future work.  
+[alt text](/kekkles-korner/assets/images/posts/Old-game.png.)
 
 ## What I'm learning
 
