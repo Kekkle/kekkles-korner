@@ -58,6 +58,33 @@ img {
   border-radius: var(--radius);
 }
 
+.post-content img {
+  border: 3px solid var(--purple);
+  border-radius: var(--radius);
+  display: block;
+  margin: 0 auto;
+}
+
+figure {
+  margin: 1.4em 0;
+  text-align: center;
+
+  img {
+    border: 3px solid var(--purple);
+    border-radius: var(--radius);
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+figcaption {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
 /* ── Typography ── */
 
 h1, h2, h3, h4 {

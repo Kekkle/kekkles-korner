@@ -38,15 +38,24 @@ A few things I went back and forth on:
 
 **The art style.** Initially the style was emoji-based characters for everything. It looked generic, basic, and well, ugly. I showed my kids and they let me know it looked boring. I had initially created a Canva presentation of this project using the graphics, colors, text and style that I envisioned. So I fed those pages as pngs to Cursor asking it to gain context from my designs, but something got lost in translation. Cursor then spat out the exact same application but with my slides as the images instead. It looked worse. I changed tactics. I had Cursor remove single graphics from my Canva presentation and save them out. Then I went through the app slide by slide and instructed Cursor when to replace current images with specifics images from Canva. That worked. It started looking more like I wanted. Even my daughter gave her approval. Whew. 
 
-![Old slide style](/kekkles-korner/assets/images/posts/Old-slide-1.png)
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/Old-slide-1.png" alt="Old slide style">
+  <figcaption>An early version of the lesson slides</figcaption>
+</figure>
 
 **The learning path.** The first version was a plain vertical list of nodes. It worked, but it was boring. I redesigned it as a winding road with location-marker checkpoints--more visually engaging, gives that "journey" feeling, and slightly less "duolingo" looking. Here's the original output:
 
-![Old learning path](/kekkles-korner/assets/images/posts/Old-learning-path.png)
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/Old-learning-path.png" alt="Old learning path">
+  <figcaption>The original learning path layout</figcaption>
+</figure>
 
 **Game prompts and instructions.** I kept tweaking the wording on each slide screen and made numerous small changes to all the games. Some games I changed completely--e.g., removing a multiple choice question game to a snake game. 
 
-![Old game](/kekkles-korner/assets/images/posts/Old-game.png)
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/Old-game.png" alt="Old game">
+  <figcaption>An early game screen</figcaption>
+</figure>
 
 ## What I'm learning
 
