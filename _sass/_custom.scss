@@ -58,31 +58,26 @@ img {
   border-radius: var(--radius);
 }
 
-.post-content img {
-  border: 3px solid var(--purple);
-  border-radius: var(--radius);
+.post-content img,
+figure img {
+  border: 3px solid var(--purple) !important;
+  border-radius: var(--radius) !important;
   display: block;
   margin: 0 auto;
 }
 
 figure {
-  margin: 1.4em 0;
+  margin: 1.4em 0 2em;
   text-align: center;
-
-  img {
-    border: 3px solid var(--purple);
-    border-radius: var(--radius);
-    display: block;
-    margin: 0 auto;
-  }
 }
 
 figcaption {
   font-family: 'Quicksand', sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   color: var(--text-light);
   font-style: italic;
   margin-top: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 /* ── Typography ── */
