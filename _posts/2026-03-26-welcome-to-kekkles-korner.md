@@ -5,7 +5,7 @@ date: 2026-03-26
 
 Well hello there. Welcome to my very first post.
 
-I'm messing currently around with Cursor to learn how to implement my many ideas into something tangible and accessible. I'm particularly interested in creating gamified content for younger audiences focused on educating on accurate nutrition information. I have more complex ideas in mind, but for now I'm keeping it simple as I learn the ropes.
+I'm currently messing around with Cursor to learn how to implement my ideas into something tangible and accessible. I'm particularly interested in creating gamified content for younger audiences focused on educating on accurate nutrition information. I have more complex ideas in mind, but for now I'm keeping it simple as I learn the ropes.
 
 ## My first attempt
 
