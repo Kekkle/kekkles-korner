@@ -40,22 +40,25 @@ A few things I went back and forth on:
 
 <figure>
   <img src="/kekkles-korner/assets/images/posts/Old-slide-1.png" alt="Old slide style">
-  <figcaption>An early version of the lesson slides</figcaption>
+  <figcaption>Here's a glimpst of one of the first versions of the lesson slides. Just ugly emoji characterse and lost of spacing between text and visual sections.</figcaption>
 </figure>
+
 
 **The learning path.** The first version was a plain vertical list of nodes. It worked, but it was boring. I redesigned it as a winding road with location-marker checkpoints--more visually engaging, gives that "journey" feeling, and slightly less "duolingo" looking. Here's the original output:
 
 <figure>
   <img src="/kekkles-korner/assets/images/posts/Old-learning-path.png" alt="Old learning path">
-  <figcaption>The original learning path layout</figcaption>
+  <figcaption>This is what the original learning path layout looked out. Kinda lackluster. </figcaption>
 </figure>
+
 
 **Game prompts and instructions.** I kept tweaking the wording on each slide screen and made numerous small changes to all the games. Some games I changed completely--e.g., removing a multiple choice question game to a snake game. 
 
 <figure>
   <img src="/kekkles-korner/assets/images/posts/Old-game.png" alt="Old game">
-  <figcaption>An early game screen</figcaption>
+  <figcaption>The first version of this game, which worked fine but looked rather bland.</figcaption>
 </figure>
+
 
 ## What I'm learning
 
