@@ -1,6 +1,6 @@
 # Kekkle me pink
 
-A simple blog for updates on my Cursor learning experience...
+A simple blog for posting updates on my projects.
 
 **Live site:** [kekkle.github.io/kekkles-korner](https://kekkle.github.io/kekkles-korner)
 
