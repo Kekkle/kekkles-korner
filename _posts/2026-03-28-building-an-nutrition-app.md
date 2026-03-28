@@ -76,6 +76,7 @@ A few things I went back and forth on:
 </figure>
 
 **Main slides.** The main slides look a bit like this. 
+
 <figure>
   <img src="/kekkles-korner/assets/images/posts/celly-slide1.png" alt="celly slide1"> 
   
@@ -84,6 +85,7 @@ A few things I went back and forth on:
 </figure>
 
 **Game features.** Here are two game features--still simple but a little more visually appealing.
+
 <figure>
   <img src="/kekkles-korner/assets/images/posts/game-sort.png" alt="game sort"> 
   
