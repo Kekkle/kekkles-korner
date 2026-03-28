@@ -78,6 +78,7 @@ A few things I went back and forth on:
 **Main slides.** The main slides look a bit like this. 
 <figure>
   <img src="/kekkles-korner/assets/images/posts/celly-slide1.png" alt="celly slide1"> 
+  
   <img src="/kekkles-korner/assets/images/posts/body-slide.png" alt="body slide">
   <figcaption>All slides meant to fit a phone screen.</figcaption>
 </figure>
@@ -85,6 +86,7 @@ A few things I went back and forth on:
 **Game features.** Here are two game features--still simple but a little more visually appealing.
 <figure>
   <img src="/kekkles-korner/assets/images/posts/game-sort.png" alt="game sort"> 
+  
   <img src="/kekkles-korner/assets/images/posts/game-snake.png" alt="game snake">
   <figcaption>It was fun to program the snake to grow one block when it "eats" the right icon, and lose a block when it eats the wrong item.</figcaption>
 </figure>
