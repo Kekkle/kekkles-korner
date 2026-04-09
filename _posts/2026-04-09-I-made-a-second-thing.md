@@ -1,6 +1,5 @@
 
 ---
-title: "I made a second thing"
 date: 2026-04-09
 ---
 
