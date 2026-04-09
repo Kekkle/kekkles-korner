@@ -1,7 +1,8 @@
-
 ---
+title: "I made a second thing"
 date: 2026-04-09
 ---
+
 
 ## Building "Eating for Energy": A Gamified Nutrition Quiz with AI-Assisted Development
 
