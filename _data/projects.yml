@@ -1,10 +1,20 @@
 # Add your projects here. Each entry needs:
 #   title:       Project name
 #   url:         Link to the live app / demo
-#   image:       Path to a screenshot (put images in assets/images/projects/)
+#   image:       Path to a screenshot (put images in Screenshots/)
 #   description: One-liner shown below the title (optional)
 
-- title: "Sample Project"
-  url: "https://example.com"
-  image: "/assets/images/projects/sample.png"
-  description: "A short description of the project."
+- title: "Nutrition App"
+  url: "#"
+  image: "/Screenshots/NutritionApp1.png"
+  description: "A nutrition tracking application."
+
+- title: "Eating Energy"
+  url: "#"
+  image: "/Screenshots/EatingEnergy.png"
+  description: "Visualizing energy from food."
+
+- title: "Prototype Quiz"
+  url: "#"
+  image: "/Screenshots/PrototypeQuiz.png"
+  description: "An interactive quiz prototype."
