@@ -1,0 +1,10 @@
+# Add your projects here. Each entry needs:
+#   title:       Project name
+#   url:         Link to the live app / demo
+#   image:       Path to a screenshot (put images in assets/images/projects/)
+#   description: One-liner shown below the title (optional)
+
+- title: "Sample Project"
+  url: "https://example.com"
+  image: "/assets/images/projects/sample.png"
+  description: "A short description of the project."

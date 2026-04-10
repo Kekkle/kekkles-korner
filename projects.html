@@ -1,0 +1,23 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+<h1 class="page-heading">Projects</h1>
+<p class="page-subtitle">Things I've built and shipped.</p>
+
+<div class="project-grid">
+  {% for project in site.data.projects %}
+  <a href="{{ project.url }}" class="project-card" target="_blank" rel="noopener noreferrer">
+    <div class="project-card-image">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+    </div>
+    <div class="project-card-info">
+      <h2 class="project-card-title">{{ project.title }}</h2>
+      {% if project.description %}
+      <p class="project-card-desc">{{ project.description }}</p>
+      {% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</div>
