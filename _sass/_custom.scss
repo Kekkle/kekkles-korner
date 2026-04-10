@@ -145,6 +145,7 @@ hr {
   padding: 1rem 0;
 
   .container {
+    max-width: 1040px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -258,8 +259,9 @@ hr {
 }
 
 .page-subtitle {
+  font-family: 'Caveat', cursive;
   color: var(--text-light);
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
@@ -275,7 +277,7 @@ hr {
   background: var(--warm-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.4rem 1.6rem;
+  padding: 1rem 1.6rem 1.4rem;
   transition: box-shadow 0.2s, transform 0.15s;
 
   &:hover {
