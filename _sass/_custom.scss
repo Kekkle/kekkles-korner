@@ -207,6 +207,7 @@ hr {
 .sidebar {
   position: sticky;
   top: 2rem;
+  margin-top: 4.8rem;
   background: var(--warm-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -337,14 +338,14 @@ hr {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
 .project-card {
   display: block;
   background: var(--warm-card);
-  border: 1px solid var(--border);
+  border: 2px solid var(--purple);
   border-radius: var(--radius);
   overflow: hidden;
   transition: box-shadow 0.2s, transform 0.15s;
