@@ -4,17 +4,17 @@
 #   image:       Path to a screenshot (put images in Screenshots/)
 #   description: One-liner shown below the title (optional)
 
-- title: "Nutrition App"
+- title: "Demo Nutrition App"
   url: "#"
   image: "/Screenshots/NutritionApp1.png"
   description: "A nutrition tracking application."
 
-- title: "Eating Energy"
+- title: "Eating for Energy Quiz"
   url: "#"
   image: "/Screenshots/EatingEnergy.png"
   description: "Visualizing energy from food."
 
-- title: "Prototype Quiz"
+- title: "First Prototype Quiz"
   url: "#"
   image: "/Screenshots/PrototypeQuiz.png"
   description: "An interactive quiz prototype."
