@@ -190,7 +190,7 @@ hr {
   padding: 2.5rem 0 3rem;
 }
 
-.container--with-sidebar {
+.container.container--with-sidebar {
   max-width: 1040px;
   display: grid;
   grid-template-columns: 1fr 240px;
@@ -412,7 +412,7 @@ hr {
 
 /* ── Responsive ── */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   html { font-size: 16px; }
 
   .site-header .container {
@@ -428,7 +428,7 @@ hr {
     font-size: 1.6rem;
   }
 
-  .container--with-sidebar {
+  .container.container--with-sidebar {
     grid-template-columns: 1fr;
   }
 
