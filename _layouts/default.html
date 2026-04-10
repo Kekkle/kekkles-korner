@@ -28,8 +28,21 @@
   </header>
 
   <main class="site-main">
-    <div class="container">
-      {{ content }}
+    <div class="container container--with-sidebar">
+      <div class="content-area">
+        {{ content }}
+      </div>
+      <aside class="sidebar">
+        <h3 class="sidebar-heading">All Posts</h3>
+        <ul class="sidebar-posts">
+          {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          </li>
+          {% endfor %}
+        </ul>
+      </aside>
     </div>
   </main>
 
