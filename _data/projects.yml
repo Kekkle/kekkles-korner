@@ -5,16 +5,16 @@
 #   description: One-liner shown below the title (optional)
 
 - title: "Demo Nutrition App"
-  url: "#"
+  url: "https://kekkle.github.io/Nutrition-App/#/"
   image: "/Screenshots/NutritionApp1.png"
-  description: "A nutrition tracking application."
+  description: "Educating on nutrition principles for young audiences."
 
 - title: "Eating for Energy Quiz"
-  url: "#"
+  url: "https://kekkle.github.io/eating-for-energy/"
   image: "/Screenshots/EatingEnergy.png"
-  description: "Visualizing energy from food."
+  description: "A quiz based on a nutrition webinar."
 
 - title: "First Prototype Quiz"
-  url: "#"
+  url: "https://kekkle.github.io/Prototype-quiz/"
   image: "/Screenshots/PrototypeQuiz.png"
-  description: "An interactive quiz prototype."
+  description: "Basic nutrition quiz."

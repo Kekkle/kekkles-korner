@@ -5,18 +5,20 @@
       <stop offset="100%" stop-color="#e8458b"/>
     </radialGradient>
   </defs>
-  <path d="M32 4
-    C20 4 10 10 7 20
-    Q4 28 8 36
-    Q6 40 10 46
-    Q14 56 26 60
-    Q32 63 38 58
-    Q46 54 52 46
-    Q58 38 56 28
-    Q54 16 46 10
-    Q40 4 32 4Z"
-    fill="url(#g1)"/>
-  <ellipse cx="24" cy="26" rx="8" ry="6" fill="#ff8ec4" opacity="0.5" transform="rotate(-15 24 26)"/>
-  <ellipse cx="44" cy="34" rx="6" ry="5" fill="#ff8ec4" opacity="0.4" transform="rotate(20 44 34)"/>
-  <ellipse cx="30" cy="46" rx="7" ry="4" fill="#e8458b" opacity="0.3" transform="rotate(-10 30 46)"/>
+  <g transform="translate(32,32) scale(0.7) translate(-32,-32)">
+    <path d="M32 4
+      C20 4 10 10 7 20
+      Q4 28 8 36
+      Q6 40 10 46
+      Q14 56 26 60
+      Q32 63 38 58
+      Q46 54 52 46
+      Q58 38 56 28
+      Q54 16 46 10
+      Q40 4 32 4Z"
+      fill="url(#g1)"/>
+    <ellipse cx="24" cy="26" rx="8" ry="6" fill="#ff8ec4" opacity="0.5" transform="rotate(-15 24 26)"/>
+    <ellipse cx="44" cy="34" rx="6" ry="5" fill="#ff8ec4" opacity="0.4" transform="rotate(20 44 34)"/>
+    <ellipse cx="30" cy="46" rx="7" ry="4" fill="#e8458b" opacity="0.3" transform="rotate(-10 30 46)"/>
+  </g>
 </svg>
