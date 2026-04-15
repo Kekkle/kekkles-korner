@@ -45,7 +45,7 @@ Most activity components were adapted from Eating for Energy, which made scaffol
 
 This is where the project scope quietly expanded. With two quizzes now built, we needed a front door -- a shared landing page that let users choose between "Eating for Energy" and "Hydration Matters". This was a relatively easy process, with some misunderstandings between me and my agent on the title position. But in the end, it got done and done well, if I may say so myself. 
 
-![Landing page for Nutrition Quizzes & Games](/assets/images/posts/landing-page.png)
+![Landing page for Nutrition Quizzes & Games]({{ '/assets/images/posts/landing-page.png' | relative_url }})
 
 
 ## What Went Well
