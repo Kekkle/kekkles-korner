@@ -11,12 +11,12 @@ permalink: /projects/
   <a href="{{ project.url }}" class="project-card" target="_blank" rel="noopener noreferrer">
     <div class="project-card-image">
       <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
-    </div>
-    <div class="project-card-info">
-      <h2 class="project-card-title">{{ project.title }}</h2>
       {% if project.date %}
       <span class="project-card-date">{{ project.date }}</span>
       {% endif %}
+    </div>
+    <div class="project-card-info">
+      <h2 class="project-card-title">{{ project.title }}</h2>
       {% if project.description %}
       <p class="project-card-desc">{{ project.description }}</p>
       {% endif %}
