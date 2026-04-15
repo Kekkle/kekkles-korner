@@ -1,8 +1,23 @@
 # Add your projects here. Each entry needs:
 #   title:       Project name
 #   url:         Link to the live app / demo
-#   image:       Path to a screenshot (put images in assets/images/projects/)
+#   image:       Path to a screenshot (put images in Screenshots/)
 #   description: One-liner shown below the title (optional)
+
+- title: "Demo Nutrition App"
+  url: "https://kekkle.github.io/Nutrition-App/#/"
+  image: "/Screenshots/NutritionApp1.png"
+  description: "Educating on nutrition principles for young audiences."
+
+- title: "Eating for Energy Quiz"
+  url: "https://kekkle.github.io/eating-for-energy/"
+  image: "/Screenshots/EatingEnergy.png"
+  description: "A quiz based on a nutrition webinar."
+
+- title: "First Prototype Quiz"
+  url: "https://kekkle.github.io/Prototype-quiz/"
+  image: "/Screenshots/PrototypeQuiz.png"
+  description: "Basic nutrition quiz."
 
 - title: "Nutrition Quizzes & Games"
   url: "#"
