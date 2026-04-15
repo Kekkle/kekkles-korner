@@ -415,6 +415,58 @@ hr {
   h1 { margin-bottom: 0.3em; }
 }
 
+.about-photo-wrapper {
+  float: right;
+  margin: 0 0 1.2rem 1.8rem;
+  position: relative;
+  width: 220px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    right: -14px;
+    bottom: -14px;
+    background:
+      radial-gradient(ellipse at 30% 25%, rgba(168, 92, 191, 0.35) 0%, transparent 70%),
+      radial-gradient(ellipse at 75% 70%, rgba(219, 112, 170, 0.30) 0%, transparent 65%),
+      radial-gradient(ellipse at 50% 50%, rgba(243, 232, 249, 0.8) 0%, transparent 80%);
+    border-radius: 52% 48% 44% 56% / 45% 55% 45% 55%;
+    z-index: 0;
+    transform: rotate(-3deg);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: -22px;
+    right: -20px;
+    width: 28px;
+    height: 28px;
+    background: radial-gradient(circle, rgba(219, 112, 170, 0.45) 0%, transparent 70%);
+    border-radius: 50%;
+    z-index: 0;
+  }
+}
+
+.about-photo {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  border-radius: 16px;
+  border: 3px solid var(--purple) !important;
+  box-shadow: 0 4px 20px rgba(123, 45, 142, 0.15);
+}
+
+@media (max-width: 768px) {
+  .about-photo-wrapper {
+    float: none;
+    margin: 0 auto 1.5rem;
+    width: 180px;
+  }
+}
+
 /* ── Footer ── */
 
 .site-footer {
