@@ -385,7 +385,14 @@ hr {
 
 .project-card-title {
   font-size: 1.15rem;
-  margin: 0 0 0.2em;
+  margin: 0 0 0.15em;
+}
+
+.project-card-date {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  margin-bottom: 0.3em;
 }
 
 .project-card-desc {

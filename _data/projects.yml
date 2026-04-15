@@ -1,30 +1,36 @@
-# Add your projects here. Each entry needs:
+# Projects listed newest-first. Each entry needs:
 #   title:       Project name
 #   url:         Link to the live app / demo
-#   image:       Path to a screenshot (put images in Screenshots/)
+#   image:       Path to a screenshot
+#   date:        Month and year of posting (displayed on the card)
 #   description: One-liner shown below the title (optional)
-
-- title: "Demo Nutrition App"
-  url: "https://kekkle.github.io/Nutrition-App/#/"
-  image: "/Screenshots/NutritionApp1.png"
-  description: "Educating on nutrition principles for young audiences."
-
-- title: "Eating for Energy Quiz"
-  url: "https://kekkle.github.io/eating-for-energy/"
-  image: "/Screenshots/EatingEnergy.png"
-  description: "A quiz based on a nutrition webinar."
-
-- title: "First Prototype Quiz"
-  url: "https://kekkle.github.io/Prototype-quiz/"
-  image: "/Screenshots/PrototypeQuiz.png"
-  description: "Basic nutrition quiz."
 
 - title: "Landing Page"
   url: "https://kekkle.github.io/eating-for-energy"
   image: "/assets/images/projects/nutrition-quizzes.png"
+  date: "April 2026"
   description: "Featuring quizzes and games based on Health Embrace webinars."
 
 - title: "Hydration Quiz"
   url: "https://kekkle.github.io/eating-for-energy/hydration-quiz/"
   image: "/assets/images/projects/hydration-quiz.png"
+  date: "April 2026"
   description: "Test what you've learned about staying hydrated with fun quizzes and games."
+
+- title: "Eating for Energy Quiz"
+  url: "https://kekkle.github.io/eating-for-energy/"
+  image: "/Screenshots/EatingEnergy.png"
+  date: "March 2026"
+  description: "A quiz based on a nutrition webinar."
+
+- title: "Demo Nutrition App"
+  url: "https://kekkle.github.io/Nutrition-App/#/"
+  image: "/Screenshots/NutritionApp1.png"
+  date: "March 2026"
+  description: "Educating on nutrition principles for young audiences."
+
+- title: "First Prototype Quiz"
+  url: "https://kekkle.github.io/Prototype-quiz/"
+  image: "/Screenshots/PrototypeQuiz.png"
+  date: "February 2026"
+  description: "Basic nutrition quiz."
