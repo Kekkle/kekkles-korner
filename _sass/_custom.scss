@@ -346,6 +346,7 @@ hr {
 
 .project-card {
   display: block;
+  position: relative;
   background: var(--warm-card);
   border: 2px solid var(--purple);
   border-radius: var(--radius);
@@ -380,8 +381,7 @@ hr {
 }
 
 .project-card-info {
-  position: relative;
-  padding: 1rem 1.2rem 1.2rem;
+  padding: 1rem 1.2rem 2rem;
 }
 
 .project-card-title {
@@ -391,8 +391,8 @@ hr {
 
 .project-card-date {
   position: absolute;
-  bottom: 0.6rem;
-  right: 0.6rem;
+  bottom: 0.5rem;
+  right: 0.5rem;
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   font-size: 0.78rem;
