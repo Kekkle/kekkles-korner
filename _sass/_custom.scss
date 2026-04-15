@@ -361,7 +361,6 @@ hr {
 }
 
 .project-card-image {
-  position: relative;
   aspect-ratio: 16 / 10;
   overflow: hidden;
   background: var(--warm-card);
@@ -381,6 +380,7 @@ hr {
 }
 
 .project-card-info {
+  position: relative;
   padding: 1rem 1.2rem 1.2rem;
 }
 
@@ -391,8 +391,8 @@ hr {
 
 .project-card-date {
   position: absolute;
-  bottom: 0.5rem;
-  right: 0.5rem;
+  bottom: 0.6rem;
+  right: 0.6rem;
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   font-size: 0.78rem;
