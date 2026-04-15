@@ -29,6 +29,11 @@
   </header>
 
   <main class="site-main">
+    {% if page.hide_sidebar %}
+    <div class="container">
+      {{ content }}
+    </div>
+    {% else %}
     <div class="container container--with-sidebar">
       <div class="content-area">
         {{ content }}
@@ -45,6 +50,7 @@
         </ul>
       </aside>
     </div>
+    {% endif %}
   </main>
 
   <footer class="site-footer">

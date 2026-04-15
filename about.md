@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+hide_sidebar: true
 ---
 
 <div class="about-content" markdown="1">
@@ -12,7 +13,7 @@ permalink: /about/
   <img src="{{ '/assets/images/about-photo.png' | relative_url }}" alt="Joykie Walter" class="about-photo">
 </div>
 
-I'm Joykie Walter, a Nutrition Science graduate and Nutrition Content developer. Originally from Cape Town, South Africa, I now live in southern Germany with my German Mann and three German Kinder, and this beautiful yet-not-always-warm-enough-place has very much become home to me.
+I'm Joykie Walter, a Nutrition Science graduate and Nutrition Content developer. Originally from Cape Town, South Africa, I now live in southern Germany with my German Mann and three German Kinder. This beautiful, yet-not-always-warm-enough-place, has very much become home to me.
 
 ## How I got here
 
@@ -26,7 +27,7 @@ These days, I'm passionate about helping young people build a healthy, grounded 
 
 ## When I'm not working
 
-You'll probably find me training for my first Hyrox (send good vibes), watching reels with my three teens, beating my husband at backgammon, sending a podcast-level voicenote to my bestie, or just sipping a creamy coffee at the kitchen window. :)
+You'll probably find me training for my first Hyrox *(or as I like to call it, Low-Sticks, har har)*, watching reels with my three teens, beating my husband at backgammon, sending a podcast-level voicenote to my bestie, or just sipping a creamy coffee at my kitchen window. :)
 
 Thanks for stopping by — I hope you find something here that's useful, interesting, or at least mildly entertaining.
 
