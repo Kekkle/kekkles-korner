@@ -11,7 +11,7 @@ The hydration content had a completely different visual identity -- a purple-to-
 
 So hydration-quiz became its own Vite + React project inside the same workspace, sharing the same component architecture and activity type patterns but with its own styles, fonts, and content. This kept each quiz self-contained and independently deployable.
 
-The trade-off was duplication -- many components were copy-adapted rather than shared from a common library. [EDIT: Reflect on whether this was the right call in hindsight. Would a monorepo with a shared component package have been better?]
+The trade-off was duplication -- many components were copy-adapted rather than shared from a common library. 
 
 ## Content Extraction: Slides to Structured Data
 
@@ -37,6 +37,7 @@ Most activity components were adapted from Eating for Energy, which made scaffol
 | Create Drink | 1 | Build a flavoured water (drag ingredients into a glass) |
 | Emoji Select | 2 | Hydrating foods grid + urine colour check |
 | Water Fill | 1 | Guess the percentage of water in bodies |
+
 
 **20 total activities** across 9 activity types, with one new activity ("Water Fill") requiring a bit more iteration to look acceptable. 
 
@@ -79,13 +80,14 @@ This is where the project scope quietly expanded. With two quizzes now built, we
 5. **AI-assisted development compounds over time.** The AGENTS.md and PROJECT_PLAN.md files written for the first project became even more valuable for the second, because the AI already had a template to follow.
 
 
-## The Link
+## The Links
 
 Here is the final Hydration game: https://kekkle.github.io/eating-for-energy/hydration-quiz/
 
 Here is the landing page: https://kekkle.github.io/eating-for-energy
 
-(All projects are also stored under "Projects" for easy reference.)
+*(All projects are also stored under "Projects" for easy reference.)*
+
 
 ## What's Next
 
