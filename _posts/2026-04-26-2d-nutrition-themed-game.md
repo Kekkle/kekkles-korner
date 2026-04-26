@@ -59,6 +59,26 @@ It suggested SVG paths as an alternative. We tried that. Also ugly. Eventually I
 
 In the end, I decided to just stick to the strange hills the agent had envisioned and focus instead on the game mechanics. Maybe the design details can come later? I'm not sure if this is the right approach, but I felt like I was getting stuck on the details and needed to step back and focus on the whole for a bit. 
 
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/original-game-screen.png" alt="Original 16-bit game screen">
+  <figcaption>The original 16-bit style game screen — the first version that felt close to what I wanted.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/pixelated-approach.png" alt="Pixelated art style approach">
+  <figcaption>A more pixelated approach — leaning into that retro aesthetic.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/svg-approach.png" alt="SVG background approach">
+  <figcaption>The SVG approach for the background — smoother curves, but it lost the pixel art feel.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/improved-hills-attempt.png" alt="First attempt to improve the hills">
+  <figcaption>First attempt to improve the hills — getting closer, but still not quite right.</figcaption>
+</figure>
+
 ---
 
 ## Playtesting with Real Kids
