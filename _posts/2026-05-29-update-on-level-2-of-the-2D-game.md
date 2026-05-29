@@ -1,4 +1,8 @@
-# Update on Level 2 of the 2D Nutrition Game
+---
+title: "Update on Level 2 of the 2D Nutrition Game"
+date: 2026-05-29
+slug: update-on-level-2-of-the-2D-game
+---
 
 I've been away from the blog for a bit working on other non-tech ed projects,  but I'm back with updates on Level 2 of the 2D game. TBH, this project has been a bit of a struggle. In my mind's eye, I can see the idea so clearly--how I want the visuals to look, how the game experience feels, what the user "learns" as they go about it--but what is being developed and actually visualized isn't cutting it. 
 
