@@ -22,3 +22,12 @@ Something I'm learning about myself is that working with AI makes me very eager 
 
 For now, level 2 is complete and playable but not up to standard (and according to my daughter, not fun at all :P ). It's viewable in my projects tab. 
 
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/level-2-protein-start-screen.png" alt="Level 2 Protein start screen with mission and hazards">
+  <figcaption>The Level 2 intro screen — collect animal (blue) and plant (green) protein foods while dodging Stress Sprites.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/level-2-protein-gameplay.png" alt="Level 2 Protein gameplay with HUD tracking protein collection">
+  <figcaption>Gameplay in Level 2 — the HUD tracks animal and plant protein pickups as you run through the level.</figcaption>
+</figure>
