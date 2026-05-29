@@ -5,6 +5,12 @@
 #   date:        Month and year of posting (displayed on the card)
 #   description: One-liner shown below the title (optional)
 
+- title: "2D Game L2"
+  url: "https://kekkle.github.io/2D-Nutrition-Game/"
+  image: "/assets/images/projects/2d-game-l2.png"
+  date: "May 2026"
+  description: "Level 2 — collect animal and plant protein foods while dodging Stress Sprites."
+
 - title: "2D Nutrition Game"
   url: "https://kekkle.github.io/2D-Nutrition-Game/"
   image: "/assets/images/projects/2d-nutrition-game.png"
