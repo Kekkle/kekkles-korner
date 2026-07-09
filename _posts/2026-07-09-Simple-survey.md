@@ -3,7 +3,7 @@ title: "A simple survey for school charity activities"
 date: 2026-07-09
 ---
 
-This project was actually completed in May, when I had the opportunity to do a simple volunteer project for the School Foods Matters charity in the UK. One of their missions is to teach children about food--how it's grown, cooked and sold--and so they offer various programs to schools where students can have hands-on experience with these skills. They needed some support updating their survey files for five, which would be printed and handed out at the events. 
+This project was actually completed in May, when I had the opportunity to do a simple volunteer project for the School Foods Matters charity in the UK. One of their missions is to teach children about food--how it's grown, cooked and sold--and so they offer various programs to schools where students can have hands-on experience with these skills. They needed some support updating their survey files for five programs, which would be printed and handed out at the events. 
 
 After completing the project, I thought it could be interesting to create an online version which students could access with a QR code and do on their phones/computers. So I had Cursor create a sample digital survey based on one of the questionnaires. That was the easy part--feed in the data, give some general instructions (eg., one question on the screen at a time), general font and style guides, and voila, a simple online survey. However, I like to give these projects a bit more design attention as I've found that Cursor/Ai doesn't always hit the design quite right. I found graphics on Canva that I liked and wanted to use, and did some back and forth with my agent on placement and sizing of the images, and in the end I'm happy with the result--simple, clean, inviting. 
 
@@ -21,7 +21,7 @@ The dashboard at `/admin` aggregates:
 
 Right now no login is required as it's just a prototype, but if the organisation were to be interested in this, we’d add sign ins before wider use.
 
-## What we built
+### What we built
 
 At a glance:
 
@@ -33,15 +33,15 @@ At a glance:
 | **Admin dashboard** | `/admin` — charts, counts, and a table of free-text responses |
 | **Deployment** | Hosted on Render (free tier), auto-deploys from GitHub |
 
-Live URLs (once deployed):
+### Live URLs (once deployed):
 
 - Landing: `https://surveys-sfm.onrender.com/`
 - Survey (fun style): `https://surveys-sfm.onrender.com/survey/style2`
 - Admin: `https://surveys-sfm.onrender.com/admin`
 
-## In closing
+### Next for this project
 
-Several things need to be kept in mind should this project turn into something that is requested, such as:
+Several things need to be kept in mind should this project turn into something that is requested in the future, such as:
 
 - [ ] Password-protect `/admin`
 - [ ] Persistent database on Render (Postgres)
