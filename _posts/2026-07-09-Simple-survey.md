@@ -5,7 +5,22 @@ date: 2026-07-09
 
 This project was actually completed in May, when I had the opportunity to do a simple volunteer project for the School Foods Matters charity in the UK. One of their missions is to teach children about food--how it's grown, cooked and sold--and so they offer various programs to schools where students can have hands-on experience with these skills. They needed some support updating their survey files for five programs, which would be printed and handed out at the events. 
 
-After completing the project, I thought it could be interesting to create an online version which students could access with a QR code and do on their phones/computers. So I had Cursor create a sample digital survey based on one of the questionnaires. That was the easy part--feed in the data, give some general instructions (eg., one question on the screen at a time), general font and style guides, and voila, a simple online survey. However, I like to give these projects a bit more design attention as I've found that Cursor/Ai doesn't always hit the design quite right. I found graphics on Canva that I liked and wanted to use, and did some back and forth with my agent on placement and sizing of the images, and in the end I'm happy with the result--simple, clean, inviting. 
+After completing the project, I thought it could be interesting to create an online version which students could access with a QR code and do on their phones/computers. So I had Cursor create a sample digital survey based on one of the questionnaires. That was the easy part--feed in the data, give some general instructions (eg., one question on the screen at a time), general font and style guides, and voila, a simple online survey. However, I like to give these projects a bit more design attention as I've found that Cursor/Ai doesn't always hit the design quite right. I found graphics on Canva that I liked and wanted to use, and did some back and forth with my agent on placement and sizing of the images, and in the end I'm happy with the result--simple, clean, inviting.
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/sfm-survey-1.png" alt="Example online survey screen 1">
+  <figcaption>Example online survey — screen 1.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/sfm-survey-2.png" alt="Example online survey screen 2">
+  <figcaption>Example online survey — screen 2.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/sfm-survey-3.png" alt="Example online survey screen 3">
+  <figcaption>Example online survey — screen 3.</figcaption>
+</figure>
 
 ### Add the admin dashboard
 
@@ -19,7 +34,27 @@ The dashboard at `/admin` aggregates:
 - Breakdown by year group (Chart.js bar chart)
 - A scrollable list of open-text answers (Q5, Q7 “something else”, Q8)
 
-Right now no login is required as it's just a prototype, but if the organisation were to be interested in this, we’d add sign ins before wider use.
+Right now no login is required as it's just a prototype, but if the organisation were to be interested in this, we'd add sign ins before wider use.
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/sfm-admin-1.png" alt="Example admin dashboard screen 1">
+  <figcaption>Example admin dashboard — overview.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/sfm-admin-2.png" alt="Example admin dashboard screen 2">
+  <figcaption>Example admin dashboard — response counts.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/sfm-admin-3.png" alt="Example admin dashboard screen 3">
+  <figcaption>Example admin dashboard — charts and breakdowns.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/sfm-admin-4.png" alt="Example admin dashboard screen 4">
+  <figcaption>Example admin dashboard — open-text responses.</figcaption>
+</figure>
 
 ### What we built
 
