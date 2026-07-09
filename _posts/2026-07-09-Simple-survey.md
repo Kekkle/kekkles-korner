@@ -8,17 +8,17 @@ This project was actually completed in May, when I had the opportunity to do a s
 After completing the project, I thought it could be interesting to create an online version which students could access with a QR code and do on their phones/computers. So I had Cursor create a sample digital survey based on one of the questionnaires. That was the easy part--feed in the data, give some general instructions (eg., one question on the screen at a time), general font and style guides, and voila, a simple online survey. However, I like to give these projects a bit more design attention as I've found that Cursor/Ai doesn't always hit the design quite right. I found graphics on Canva that I liked and wanted to use, and did some back and forth with my agent on placement and sizing of the images, and in the end I'm happy with the result--simple, clean, inviting.
 
 <figure>
-  <img src="/kekkles-korner/assets/images/posts/sfm-survey-1.png" alt="Example online survey screen 1">
+  <img src="/kekkles-korner/assets/images/posts/sfm-survey-wide-1.png" alt="Example online survey screen 1">
   <figcaption>Example online survey — screen 1.</figcaption>
 </figure>
 
 <figure>
-  <img src="/kekkles-korner/assets/images/posts/sfm-survey-2.png" alt="Example online survey screen 2">
+  <img src="/kekkles-korner/assets/images/posts/sfm-survey-wide-2.png" alt="Example online survey screen 2">
   <figcaption>Example online survey — screen 2.</figcaption>
 </figure>
 
 <figure>
-  <img src="/kekkles-korner/assets/images/posts/sfm-survey-3.png" alt="Example online survey screen 3">
+  <img src="/kekkles-korner/assets/images/posts/sfm-survey-wide-3.png" alt="Example online survey screen 3">
   <figcaption>Example online survey — screen 3.</figcaption>
 </figure>
 
