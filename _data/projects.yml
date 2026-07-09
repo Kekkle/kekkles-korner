@@ -5,6 +5,12 @@
 #   date:        Month and year of posting (displayed on the card)
 #   description: One-liner shown below the title (optional)
 
+- title: "School Survey"
+  url: "https://surveys-sfm.onrender.com/"
+  image: "/assets/images/projects/school-survey.png"
+  date: "July 2026"
+  description: "Online survey for School Food Matters — students answer on their phones, admins view results on a dashboard."
+
 - title: "2D Game L2"
   url: "https://kekkle.github.io/2D-Nutrition-Game/?level=2"
   image: "/assets/images/projects/2d-game-l2.png"
