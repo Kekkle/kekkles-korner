@@ -18,7 +18,7 @@ After completing the project, I thought it could be interesting to create an onl
 </figure>
 
 <figure>
-  <img src="/kekkles-korner/assets/images/posts/sfm-survey-wide-3.png" alt="Example online survey screen 3">
+  <img src="/kekkles-korner/assets/images/posts/sfm-survey-wide-3-v2.png" alt="Example online survey screen 3">
   <figcaption>Example online survey — screen 3.</figcaption>
 </figure>
 
