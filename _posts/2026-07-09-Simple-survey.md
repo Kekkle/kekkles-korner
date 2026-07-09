@@ -1,0 +1,53 @@
+---
+title: "A simple survey for school charity activities"
+date: 2026-07-09
+---
+
+This project was actually completed in May, when I had the opportunity to do a simple volunteer project for the School Foods Matters charity in the UK. One of their missions is to teach children about food--how it's grown, cooked and sold--and so they offer various programs to schools where students can have hands-on experience with these skills. They needed some support updating their survey files for five, which would be printed and handed out at the events. 
+
+After completing the project, I thought it could be interesting to create an online version which students could access with a QR code and do on their phones/computers. So I had Cursor create a sample digital survey based on one of the questionnaires. That was the easy part--feed in the data, give some general instructions (eg., one question on the screen at a time), general font and style guides, and voila, a simple online survey. However, I like to give these projects a bit more design attention as I've found that Cursor/Ai doesn't always hit the design quite right. I found graphics on Canva that I liked and wanted to use, and did some back and forth with my agent on placement and sizing of the images, and in the end I'm happy with the result--simple, clean, inviting. 
+
+### Add the admin dashboard
+
+Next, because this is a survey, an admin page was also necessary so that the results could be tallied. This meant hosting the project on Render. 
+
+The dashboard at `/admin` aggregates:
+
+- Total responses and consent breakdown
+- Counts for each checkbox question
+- Happiness distribution (very happy → sad)
+- Breakdown by year group (Chart.js bar chart)
+- A scrollable list of open-text answers (Q5, Q7 “something else”, Q8)
+
+Right now no login is required as it's just a prototype, but if the organisation were to be interested in this, we’d add sign ins before wider use.
+
+## What we built
+
+At a glance:
+
+| Piece | What it does |
+|-------|----------------|
+| **Student survey** | Nine questions: consent, year group, what they tried, skills learnt, open text, interests, wellbeing, suggestions, overall happiness |
+| **Two visual styles** | “Classic” (calm green, straightforward) and “Fun” (colourful, one question per screen, progress bar, custom illustrations) |
+| **Flask API** | `POST /api/submit` accepts JSON and stores answers in SQLite |
+| **Admin dashboard** | `/admin` — charts, counts, and a table of free-text responses |
+| **Deployment** | Hosted on Render (free tier), auto-deploys from GitHub |
+
+Live URLs (once deployed):
+
+- Landing: `https://surveys-sfm.onrender.com/`
+- Survey (fun style): `https://surveys-sfm.onrender.com/survey/style2`
+- Admin: `https://surveys-sfm.onrender.com/admin`
+
+## In closing
+
+Several things need to be kept in mind should this project turn into something that is requested, such as:
+
+- [ ] Password-protect `/admin`
+- [ ] Persistent database on Render (Postgres)
+- [ ] Multi-project support (`/survey/<project-slug>`)
+- [ ] Optional widget script for native-feeling embeds
+- [ ] Rate limiting on `/api/submit` to reduce spam
+- [ ] Export responses to CSV for reports
+
+But for now, it was a quick, simple learning experience. 
