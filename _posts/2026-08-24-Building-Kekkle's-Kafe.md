@@ -45,8 +45,35 @@ Seeing as this was a try-it-and-see app, I opted to have this be hosted on a web
 
 ### The App Name
 
-First things first, I needed the right name for my app. Early names I floated around included things like  **Drip** (simple, straightforward)  or **Dripple** (quirky). I created some mock-up logo designs before realising that I should ask Cursor to do a competitor analysis on both the app idea as well as on name ideas before getting too far ahead of myself. After it became clear that many names on my list were already in use, I settled on “KekklesKafe”. Which in the end, I liked better than all the other ideas because it is unique to me. 
+First things first, I needed the right name for my app. Early names I floated around included things like  **Drip** (simple, straightforward)  or **Dripple** (quirky).
 
-AI generated several directions I liked, then I combined and refined them manually into the final wordmark (`logo-wordmark-transparent.png`).
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-1.png" alt="Early Drip logo idea 1 — coffee bean character">
+  <figcaption>Early logo idea 1 — Drip.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-2.png" alt="Early Drip logo idea 2 — pouring coffee">
+  <figcaption>Early logo idea 2 — Drip.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-3.png" alt="Early Drip logo idea 3 — coffee cup top view">
+  <figcaption>Early logo idea 3 — Drip.</figcaption>
+</figure>
+
+I created some mock-up logo designs before realising that I should ask Cursor to do a competitor analysis on both the app idea as well as on name ideas before getting too far ahead of myself. After it became clear that many names on my list were already in use, I settled on “KekklesKafe”. Which in the end, I liked better than all the other ideas because it is unique to me. 
+
+AI generated several directions I liked, then I combined and refined them manually into the final wordmark.
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/kafe-logo-concepts.png" alt="Kekkle's Kafe logo concept directions">
+  <figcaption>Logo concept directions generated during naming.</figcaption>
+</figure>
+
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/kafe-logo-wordmark.png" alt="Final Kekkle's Kafe wordmark">
+  <figcaption>Final wordmark — Kekkle's Kafe.</figcaption>
+</figure>
 
 Stay tuned for part 2–-where I get into how I implemented the creation of the app. 
