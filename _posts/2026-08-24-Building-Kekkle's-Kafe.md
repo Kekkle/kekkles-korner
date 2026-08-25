@@ -1,6 +1,6 @@
 ---
 title: "Building Kekkle's Kafe: A Remote Coffee Ritual for Far-Away Friends–Part 1"
-date: 2026-25-08
+date: 2026-08-24
 ---
 
 So this next project I worked on was for me personally. 
