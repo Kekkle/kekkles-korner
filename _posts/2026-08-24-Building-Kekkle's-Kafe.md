@@ -47,17 +47,17 @@ Seeing as this was a try-it-and-see app, I opted to have this be hosted on a web
 
 First things first, I needed the right name for my app. Early names I floated around included things like  **Drip** (simple, straightforward)  or **Dripple** (quirky).
 
-<figure>
+<figure class="post-logo">
   <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-1.png" alt="Early Drip logo idea 1 — coffee bean character">
   <figcaption>Early logo idea 1 — Drip.</figcaption>
 </figure>
 
-<figure>
+<figure class="post-logo">
   <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-2.png" alt="Early Drip logo idea 2 — pouring coffee">
   <figcaption>Early logo idea 2 — Drip.</figcaption>
 </figure>
 
-<figure>
+<figure class="post-logo">
   <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-3.png" alt="Early Drip logo idea 3 — coffee cup top view">
   <figcaption>Early logo idea 3 — Drip.</figcaption>
 </figure>
@@ -66,12 +66,12 @@ I created some mock-up logo designs before realising that I should ask Cursor to
 
 AI generated several directions I liked, then I combined and refined them manually into the final wordmark.
 
-<figure>
+<figure class="post-logo">
   <img src="/kekkles-korner/assets/images/posts/kafe-logo-concepts.png" alt="Kekkle's Kafe logo concept directions">
   <figcaption>Logo concept directions generated during naming.</figcaption>
 </figure>
 
-<figure>
+<figure class="post-logo post-logo--plain">
   <img src="/kekkles-korner/assets/images/posts/kafe-logo-wordmark.png" alt="Final Kekkle's Kafe wordmark">
   <figcaption>Final wordmark — Kekkle's Kafe.</figcaption>
 </figure>
