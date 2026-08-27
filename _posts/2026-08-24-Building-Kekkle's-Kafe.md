@@ -67,7 +67,7 @@ I created some mock-up logo designs before realising that I should ask Cursor to
 AI generated several directions I liked, then I combined and refined them manually into the final wordmark.
 
 <figure>
-  <img src="/kekkles-korner/assets/images/posts/kafe-logo-concepts.png" alt="Kekkle's Kafe logo concept directions" style="width:245px;max-width:100%;height:264px;object-fit:contain;display:block;margin:0 auto;">
+  <img src="/kekkles-korner/assets/images/posts/kafe-logo-concepts.png" alt="Kekkle's Kafe logo concept directions">
   <figcaption>Logo concept directions generated during naming.</figcaption>
 </figure>
 
