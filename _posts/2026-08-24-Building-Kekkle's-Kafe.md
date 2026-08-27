@@ -47,18 +47,18 @@ Seeing as this was a try-it-and-see app, I opted to have this be hosted on a web
 
 First things first, I needed the right name for my app. Early names I floated around included things like  **Drip** (simple, straightforward)  or **Dripple** (quirky).
 
-<figure class="post-logo">
-  <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-1.png" alt="Early Drip logo idea 1 — coffee bean character">
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-1.png" alt="Early Drip logo idea 1 — coffee bean character" style="width:245px;max-width:100%;height:264px;object-fit:contain;display:block;margin:0 auto;">
   <figcaption>Early logo idea 1 — Drip.</figcaption>
 </figure>
 
-<figure class="post-logo">
-  <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-2.png" alt="Early Drip logo idea 2 — pouring coffee">
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-2.png" alt="Early Drip logo idea 2 — pouring coffee" style="width:245px;max-width:100%;height:264px;object-fit:contain;display:block;margin:0 auto;">
   <figcaption>Early logo idea 2 — Drip.</figcaption>
 </figure>
 
-<figure class="post-logo">
-  <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-3.png" alt="Early Drip logo idea 3 — coffee cup top view">
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/kafe-early-logo-3.png" alt="Early Drip logo idea 3 — coffee cup top view" style="width:245px;max-width:100%;height:264px;object-fit:contain;display:block;margin:0 auto;">
   <figcaption>Early logo idea 3 — Drip.</figcaption>
 </figure>
 
@@ -66,13 +66,13 @@ I created some mock-up logo designs before realising that I should ask Cursor to
 
 AI generated several directions I liked, then I combined and refined them manually into the final wordmark.
 
-<figure class="post-logo">
-  <img src="/kekkles-korner/assets/images/posts/kafe-logo-concepts.png" alt="Kekkle's Kafe logo concept directions">
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/kafe-logo-concepts.png" alt="Kekkle's Kafe logo concept directions" style="width:245px;max-width:100%;height:264px;object-fit:contain;display:block;margin:0 auto;">
   <figcaption>Logo concept directions generated during naming.</figcaption>
 </figure>
 
-<figure class="post-logo post-logo--plain">
-  <img src="/kekkles-korner/assets/images/posts/kafe-logo-wordmark.png" alt="Final Kekkle's Kafe wordmark">
+<figure>
+  <img src="/kekkles-korner/assets/images/posts/kafe-logo-wordmark.png" alt="Final Kekkle's Kafe wordmark" style="width:245px;max-width:100%;height:264px;object-fit:contain;display:block;margin:0 auto;border:none !important;">
   <figcaption>Final wordmark — Kekkle's Kafe.</figcaption>
 </figure>
 
