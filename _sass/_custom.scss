@@ -82,6 +82,44 @@ figure {
   text-align: center;
 }
 
+.figure-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1.4em 0 2em;
+
+  figure {
+    flex: 1 1 200px;
+    max-width: 280px;
+    margin: 0;
+  }
+
+  img {
+    max-height: 320px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  figcaption {
+    margin-bottom: 0;
+    font-size: 0.72rem;
+  }
+}
+
+.figure-compact {
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+
+  img {
+    max-height: 320px;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
 figcaption {
   font-family: 'Quicksand', sans-serif;
   font-size: 0.78rem;
