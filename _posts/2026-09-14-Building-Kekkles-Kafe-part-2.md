@@ -61,7 +61,7 @@ Question cards got their own mockup set ("Idea 1 — unified card") with differe
 
 Beyond the menu and clink, I cared about **how it feels to receive an invite**. Mockups explored "I miss you" vs "Meet up?" invite styles (illustrated cards with music notes, pink accents, and the bean-in-a-cup mascot). The host picks an invite style; the guest sees that image before they even order.
 
-<div class="figure-row">
+<div class="figure-row figure-row--invite">
   <figure>
     <img src="/kekkles-korner/assets/images/posts/kafe-invite-meetup.png" alt="Meet up invite screen mockup">
     <figcaption>"Meet up?" invite style — your friend sees this before they order.</figcaption>
@@ -83,13 +83,13 @@ As the app came together, I would test it out between my computer and my phone t
 - The visual of the coffee cups being emptied as they are sipped (which then required manual edits in canva of each coffee cup to reduce the drink from full to 0.5 to 0.3 to empty)
 
 <figure>
-  <img src="/kekkles-korner/assets/images/posts/kafe-drained-cups-v2.png" alt="Manually drained coffee cup levels created in Canva">
+  <img src="/kekkles-korner/assets/images/posts/kafe-drained-cups-v3.png" alt="Manually drained coffee cup levels created in Canva">
   <figcaption>Manually drained coffee cups in Canva — full, half, low, and empty.</figcaption>
 </figure>
 
 All of these took time and tedious back-and-forth with Cursor. But finally, the app worked and was ready to be tested with real friends!
 
-<figure class="figure-compact">
-  <img src="/kekkles-korner/assets/images/posts/kafe-ready-to-test.jpeg" alt="Kekkle's Kafe app ready to test on mobile">
+<figure class="figure-screen">
+  <img src="/kekkles-korner/assets/images/posts/kafe-ready-to-test-v2.png" alt="Kekkle's Kafe app ready to test on mobile">
   <figcaption>Ready to be tested — the live app on mobile.</figcaption>
 </figure>
