@@ -35,11 +35,6 @@ I had a very clear picture in my head of the coffee bean character I wanted to u
 **What worked:** Canva. I found cartoon assets with the right energy (it was actually a potato), then edited them by hand, removing notches, changing colours, repositioning eyes and mouths, adding hands where I needed them, etc. Until the little beanie looked closer to my own sketches.
 
 <figure>
-  <img src="/kekkles-korner/assets/images/posts/kafe-bean-in-cup.png" alt="Manually designed bean in cup mascot">
-  <figcaption>Manually designed bean-in-cup — much closer to the vision.</figcaption>
-</figure>
-
-<figure>
   <img src="/kekkles-korner/assets/images/posts/kafe-redesigned-beans.png" alt="Redesigned Canva coffee bean characters">
   <figcaption>Redesigned Canva beans — different poses and expressions for different moments.</figcaption>
 </figure>
