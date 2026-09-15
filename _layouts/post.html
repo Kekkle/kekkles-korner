@@ -14,22 +14,24 @@ layout: default
   </div>
 
   <footer class="post-footer">
+    {% assign current_found = false %}
     {% assign prev_post = nil %}
     {% assign next_post = nil %}
     {% for p in site.posts %}
-      {% if p.url == page.url %}
-        {% unless forloop.last %}
-          {% assign prev_post = site.posts[forloop.index] %}
-        {% endunless %}
-        {% unless forloop.first %}
-          {% assign next_post = site.posts[forloop.index0 | minus: 1] %}
-        {% endunless %}
+      {% if current_found %}
+        {% assign prev_post = p %}
+        {% break %}
+      {% endif %}
+      {% if p.id == page.id %}
+        {% assign current_found = true %}
+      {% else %}
+        {% assign next_post = p %}
       {% endif %}
     {% endfor %}
 
     <nav class="post-nav" aria-label="Post navigation">
       <div class="post-nav-prev">
-        {% if prev_post %}
+        {% if prev_post and prev_post.url %}
         <a href="{{ prev_post.url | relative_url }}" class="post-nav-link">
           <span class="post-nav-label">&larr; Previous post</span>
           <span class="post-nav-title">{{ prev_post.title }}</span>
@@ -37,7 +39,7 @@ layout: default
         {% endif %}
       </div>
       <div class="post-nav-next">
-        {% if next_post %}
+        {% if next_post and next_post.url %}
         <a href="{{ next_post.url | relative_url }}" class="post-nav-link">
           <span class="post-nav-label">Next post &rarr;</span>
           <span class="post-nav-title">{{ next_post.title }}</span>
