@@ -14,6 +14,36 @@ layout: default
   </div>
 
   <footer class="post-footer">
-    <a href="{{ '/' | relative_url }}" class="back-link">&larr; Back to all posts</a>
+    {% assign prev_post = nil %}
+    {% assign next_post = nil %}
+    {% for p in site.posts %}
+      {% if p.url == page.url %}
+        {% unless forloop.last %}
+          {% assign prev_post = site.posts[forloop.index] %}
+        {% endunless %}
+        {% unless forloop.first %}
+          {% assign next_post = site.posts[forloop.index0 | minus: 1] %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+
+    <nav class="post-nav" aria-label="Post navigation">
+      <div class="post-nav-prev">
+        {% if prev_post %}
+        <a href="{{ prev_post.url | relative_url }}" class="post-nav-link">
+          <span class="post-nav-label">&larr; Previous post</span>
+          <span class="post-nav-title">{{ prev_post.title }}</span>
+        </a>
+        {% endif %}
+      </div>
+      <div class="post-nav-next">
+        {% if next_post %}
+        <a href="{{ next_post.url | relative_url }}" class="post-nav-link">
+          <span class="post-nav-label">Next post &rarr;</span>
+          <span class="post-nav-title">{{ next_post.title }}</span>
+        </a>
+        {% endif %}
+      </div>
+    </nav>
   </footer>
 </article>
