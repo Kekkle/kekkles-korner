@@ -73,4 +73,9 @@ As of July, **Kekkle's Kafe** is a live, deployable web app:
 
 You can complete a full ritual with a friend anywhere in the world: invite → drinks → optional question cards → sip → clink → goodbye.
 
+<figure class="figure-screen">
+  <img src="/kekkles-korner/assets/images/posts/kafe-welcome-phone.png" alt="Kekkle's Kafe welcome screen on a phone">
+  <figcaption>Welcome screen — choose a username and come on in.</figcaption>
+</figure>
+
 Kekkle's Kafe is open for business! Check it and invite a friend for a remote coffee app ritual if you have a chance! ☕
