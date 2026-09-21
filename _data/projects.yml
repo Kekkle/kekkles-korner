@@ -5,6 +5,12 @@
 #   date:        Month and year of posting (displayed on the card)
 #   description: One-liner shown below the title (optional)
 
+- title: "Kekkle's Kafe"
+  url: "https://kekkles-kafe.vercel.app"
+  image: "/assets/images/projects/kekkles-kafe.png"
+  date: "September 2026"
+  description: "A remote coffee ritual for far-away friends."
+
 - title: "School Survey"
   url: "https://surveys-sfm.onrender.com/"
   image: "/assets/images/projects/school-survey.png"
