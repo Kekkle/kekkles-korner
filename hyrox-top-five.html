@@ -19,7 +19,7 @@ hide_sidebar: true
         class="slideshow-image"
         data-slideshow-image
         src="{{ '/assets/images/projects/hyrox/1.jpg' | relative_url }}"
-        alt="Hyrox tip slide 1 of 8"
+        alt="Hyrox tip slide 1 of 12"
         width="1080"
         height="1440"
       >
@@ -30,7 +30,7 @@ hide_sidebar: true
     </button>
   </div>
 
-  <p class="slideshow-counter"><span data-slideshow-current>1</span> / <span data-slideshow-total>8</span></p>
+  <p class="slideshow-counter"><span data-slideshow-current>1</span> / <span data-slideshow-total>12</span></p>
 
   <div class="slideshow-dots" data-slideshow-dots role="tablist" aria-label="Choose slide"></div>
 </div>
@@ -44,7 +44,8 @@ hide_sidebar: true
 
 <script>
   window.HYROX_SLIDES = [
-    {% for i in (1..8) %}
+    {% assign slide_nums = "1,2,3,4,5,6,7,8,10,11,12,13" | split: "," %}
+    {% for i in slide_nums %}
     {% assign slide_path = '/assets/images/projects/hyrox/' | append: i | append: '.jpg' %}
     "{{ slide_path | relative_url }}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
