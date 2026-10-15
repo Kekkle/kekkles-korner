@@ -4,6 +4,14 @@
 #   image:       Path to a screenshot
 #   date:        Month and year of posting (displayed on the card)
 #   description: One-liner shown below the title (optional)
+#   external:    Set false for on-site pages (opens in same tab)
+
+- title: "My Hyrox Musings"
+  url: "/projects/hyrox-top-five/"
+  image: "/assets/images/projects/hyrox/thumbnail.png"
+  date: "October 2026"
+  description: "Top five things from my Hyrox solo — flip through the slides."
+  external: false
 
 - title: "Kekkle's Kafe"
   url: "https://kekkles-kafe.vercel.app"

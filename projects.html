@@ -8,7 +8,11 @@ permalink: /projects/
 
 <div class="project-grid">
   {% for project in site.data.projects %}
-  <a href="{{ project.url }}" class="project-card" target="_blank" rel="noopener noreferrer">
+  <a
+    href="{{ project.url | relative_url }}"
+    class="project-card"
+    {% unless project.external == false %}target="_blank" rel="noopener noreferrer"{% endunless %}
+  >
     <div class="project-card-image">
       <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
     </div>

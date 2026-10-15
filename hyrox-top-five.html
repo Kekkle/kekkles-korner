@@ -1,0 +1,53 @@
+---
+layout: default
+title: My Hyrox Musings
+permalink: /projects/hyrox-top-five/
+hide_sidebar: true
+---
+
+<h1 class="page-heading">My Hyrox Musings</h1>
+<p class="page-subtitle">Top five things from my Hyrox solo race. Use the arrows to flip through.</p>
+
+<div class="slideshow" data-slideshow aria-roledescription="carousel" aria-label="Hyrox top five things slideshow">
+  <div class="slideshow-viewport">
+    <button type="button" class="slideshow-btn slideshow-btn--prev" data-slideshow-prev aria-label="Previous slide">
+      <span aria-hidden="true">‹</span>
+    </button>
+
+    <div class="slideshow-frame">
+      <img
+        class="slideshow-image"
+        data-slideshow-image
+        src="{{ '/assets/images/projects/hyrox/1.jpg' | relative_url }}"
+        alt="Hyrox tip slide 1 of 8"
+        width="1080"
+        height="1440"
+      >
+    </div>
+
+    <button type="button" class="slideshow-btn slideshow-btn--next" data-slideshow-next aria-label="Next slide">
+      <span aria-hidden="true">›</span>
+    </button>
+  </div>
+
+  <p class="slideshow-counter"><span data-slideshow-current>1</span> / <span data-slideshow-total>8</span></p>
+
+  <div class="slideshow-dots" data-slideshow-dots role="tablist" aria-label="Choose slide"></div>
+</div>
+
+<p class="slideshow-links">
+  Related posts:
+  <a href="{{ '/2026/10/12/top-ten-things-i-did-right/' | relative_url }}">Things I did right</a> ·
+  <a href="{{ '/2026/10/13/my-hyrox-solo-5-things/' | relative_url }}">Things I did not expect</a> ·
+  <a href="{{ '/2026/10/15/my-hyrox-solo-5-things-i-would-do-differently/' | relative_url }}">Things I would do differently</a>
+</p>
+
+<script>
+  window.HYROX_SLIDES = [
+    {% for i in (1..8) %}
+    {% assign slide_path = '/assets/images/projects/hyrox/' | append: i | append: '.jpg' %}
+    "{{ slide_path | relative_url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+</script>
+<script src="{{ '/assets/js/slideshow.js' | relative_url }}" defer></script>

@@ -10,6 +10,10 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - "Hyrox posts"
+  - "Top Ten Things I did Right.md"
+  - "My Hyrox Solo 5 Things.md"
+  - "My Hyrox Solo 5 Things I would do differently.md"
 
 defaults:
   - scope:
