@@ -43,6 +43,11 @@
 
   if (prevBtn) prevBtn.addEventListener("click", function () { goTo(index - 1); });
   if (nextBtn) nextBtn.addEventListener("click", function () { goTo(index + 1); });
+  if (img) {
+    img.style.cursor = "pointer";
+    img.title = "Click for next slide";
+    img.addEventListener("click", function () { goTo(index + 1); });
+  }
 
   document.addEventListener("keydown", function (event) {
     if (event.key === "ArrowLeft") goTo(index - 1);
