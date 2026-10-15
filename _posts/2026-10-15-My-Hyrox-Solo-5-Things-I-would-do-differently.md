@@ -19,3 +19,5 @@ Seeing as I am interested in a repeat, here are the five things I would do diffe
 I have considered doing a doubles race next time (provided I can find a partner) but my one hesitation is the pacing. I imagine pacing with a partner is a lot more taxing (mentally and physically) than relying on your own mental and physical strength for feedback.
 
 For the time being, I’ll focus on improving my running while I consider how and when to sign up for my next Hyrox.
+
+[Click for my Hyrox Summary Sheets](/kekkles-korner/projects/hyrox-top-five/)

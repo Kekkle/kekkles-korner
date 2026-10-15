@@ -16,3 +16,5 @@ Although I had read a lot of Hyrox tips and tricks and “5 things to never/alwa
 After the high of the race wore off, dissatisfaction with my finish time set in. Looking over my race breakdown on Roxfit, it was clear that both the Roxzone (almost 10 minutes) and my runs were incredibly slow (ca. 7 minute laps). Granted I walked one lap in 4 out of the 8km runs, but still.
 
 In my next post, I’ll cover the five things I would do differently next time, should I race again.
+
+[Click for my Hyrox Summary Sheets](/kekkles-korner/projects/hyrox-top-five/)

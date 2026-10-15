@@ -24,3 +24,5 @@ But before I get into all the things I could have done better or am looking to i
 10. **Wore my kit!**--Even though I felt a bit self conscious at the start in my bright orange shorts and blue sports bra, I reminded myself that this race was for me (and my daughter) and no one would give a flying hoot anyway. Afterwards I realized how advantageous my bright shorts were because my family could spot me easily wherever was I running (and later I could easily locate myself in the back of other's photos and videos on Insta :)).
 
 All in all, it was a fun, high-energy experience that I so enjoyed taking part in. In my next post, I’ll go over some of the things that came up during the race that I did not expect or prepare for, as well as what I would do differently next time.
+
+[Click for my Hyrox Summary Sheets](/kekkles-korner/projects/hyrox-top-five/)
